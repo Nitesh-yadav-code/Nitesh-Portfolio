@@ -229,6 +229,26 @@ img {
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
+
+.typewriter {
+  width: fit-content;
+  overflow: hidden;
+  animation: typing 4s steps(40, end), blink 0.5s step-end infinite;
+}
+.typewriter p {
+  display: block;
+  margin: 0;
+  white-space: pre-wrap; 
+}
+
+@keyframes typing {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 6.5em; /* Set max-height to reveal all lines */
+  }
+}
 .hero-picture {
   position: relative;
 }
@@ -503,7 +523,8 @@ footer .footer-logo {
     font-size: 1.25rem;
   }
   .content {
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
+    
   }
  
   .skill-cards {
