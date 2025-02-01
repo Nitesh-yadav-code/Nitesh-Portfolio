@@ -163,11 +163,11 @@ img {
   cursor: pointer;
 }
 
-.resume:hover {
+/* .resume:hover {
   box-shadow: 0 3px 15px 3px rgb(0 0 0 / 15%);
   margin-bottom: 3px;
   transition: all 0.5s ease-in-out;
-}
+} */
 
 .resume img {
   height: 24px;
@@ -178,6 +178,13 @@ img {
   color: #ffff;
   margin: 0 0.5rem;
   font-weight: 600;
+}
+
+
+/* hero section start */
+#main {
+  min-height: 80vh;
+  margin-top: 3rem;
 }
 
 /* hero section start */
@@ -714,3 +721,4 @@ footer .footer-logo {
     margin-left: 1.8rem;
   }
 }
+
