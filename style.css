@@ -213,7 +213,7 @@ img {
   justify-content: center;
   padding: 0 3rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
 }
 .content .small {
   color: #a3a3a3;
@@ -529,7 +529,7 @@ footer .footer-logo {
     margin: 0.5rem 0rem 1rem 0;
   }
   .content p {
-    font-size: 1.25rem;
+    font-size: 1.20rem;
   }
   .content {
     padding: 1rem 1.5rem;
