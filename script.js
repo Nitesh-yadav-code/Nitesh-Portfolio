@@ -2,10 +2,10 @@
 // Typewriter effect
   
   document.addEventListener("DOMContentLoaded", function() {
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
-    darkModeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('dark-mode');
-    });
+    // const darkModeToggle = document.getElementById('dark-mode-toggle');
+    // darkModeToggle.addEventListener('click', function() {
+    //     document.body.classList.toggle('dark-mode');
+    // });
 
     
     const textArray = ["Software Engineer", "Web Developer", "Tech Enthusiast"];
